@@ -1,0 +1,191 @@
+/* gray == #f6f8f9 */
+/* dark gray == #323a44 */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', 'Open Sans', sans-serif;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  background-image: linear-gradient(skyblue, rgba(0, 0, 0, 0.2)),  url('img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo{
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logoGt{
+  font-size: 1.5em;
+  color: #f07863;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  align-items: center;
+  text-align: center;
+  font-size: 2em;
+}
+
+.hero h1{
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.button{
+  display: flex;
+  float:left;
+  margin: 90px 0 0 15px;
+  background: #f07863;
+  border-radius: 200px;
+  padding: 12px 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  color: white;
+  text-transform: capitalize;
+}
+
+p{
+  line-height: 1.5;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav li{
+  display: inline-block;
+  list-style: none;
+  margin-right: 12px;
+}
+
+nav a{
+  padding: 8px;
+}
+
+nav a:hover{
+  outline: 2px solid #f07863;
+}
+
+
+/************************ section ************************* */
+section{
+  background-color: #f6f8f9;
+  padding: 80px 80px;
+}
+.row{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxCenter{
+  width: 90%;
+  margin: 0 auto;
+}
+.boxCenter h2{
+  width: 30%;
+  margin: 0 auto;
+}
+.boxCenter p{
+  border-left: 3px solid #f07863;
+  padding-left: 12px;
+  width: 50%;
+}
+
+.column1{
+  width: 45%;
+  color: #5e6d81;
+}
+
+.column1 h2{
+  font-size: 2em;
+  margin-bottom: 12px;
+}
+
+.column1 h3{
+  margin-bottom: 12px;
+}
+
+.column2{
+  width: 35%;
+}
+
+/************************ footer ************************* */
+footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:#323a44;
+  height: 100px;
+}
+
+footer p{
+  margin-top: 12px;
+  color: #656565;
+}
+/************************ table ************************* */
+table tr td{
+  border-bottom: 1px solid;
+  width: 80%;
+  padding: 5px;
+}
+/************************ form ************************* */
+.form-wrap{
+  width: 40%;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #f07863;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+    margin-top: 8px;
+}

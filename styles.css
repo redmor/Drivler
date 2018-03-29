@@ -189,3 +189,49 @@ input[type=submit] {
     float: left;
     margin-top: 8px;
 }
+
+/*************** Buy NOW SECTION *******************/
+.buyNow{
+  background-color: #fff;
+}
+.sale-items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.item{
+  border: 1px solid tomato;
+  margin: 30px;
+  padding: 30px;
+  position: relative;
+}
+
+.item span{
+  background-color: tomato;
+  padding: 5px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.item li{
+  list-style: none;
+  font-size: 1.5em;
+  margin-top: 12px;
+  text-align: left;
+}
+
+/*************** FAQ SECTION *******************/
+.faq-section{
+  width: 50%;
+}
+
+dt{
+  background-color: #f078631a;
+  padding: 5px;
+  font-weight: bold;
+
+}
